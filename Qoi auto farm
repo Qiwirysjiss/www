@@ -1,0 +1,77 @@
+while wait(.01) do
+  if _G.Toggle == enabled then
+--Wisteria Forest
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-842.79217529297, 463.07696533203, 406.56726074219))
+
+wait(0.5)
+
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-861.48065185547, 463.07696533203, 368.67193603516))
+
+wait(0.5)
+
+--Forest
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-769.69250488281, 389.05270385742, -295.97415161133))
+
+wait(0.5)
+
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-745.96850585938, 389.05270385742, -330.43154907227))
+
+wait(0.5)
+
+--Grasslands
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-795.28802490234, 398.07476806641, 53.355583190918))
+
+wait(0.5)
+
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-796.50146484375, 398.07476806641, 95.36213684082))
+
+wait(0.5)
+
+--Rice Fields
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-158.0689239502, 392.86309814453, -287.08016967773))
+
+wait(0.5)
+
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-115.91997528076, 392.86309814453, -287.20217895508))
+
+wait(0.5)
+
+--Winter Woods
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-232.86988830566, 519.05004882813, 541.96350097656))
+
+wait(0.5)
+
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-233.09509277344, 519.05004882813, 499.59381103516))
+
+wait(0.5)
+
+--Mountains
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-42.830101013184, 442.06246948242, 300.22055053711))
+
+wait(0.5)
+
+game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-11.20945930481, 442.3024597168, 272.75329589844))
+
+wait(0.5)
+
+--Cooldown
+wait(10)
+   
+local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+
+Notification.Notify("Yeeet", "yeet", "rbxasset://textures/ui/GuiImagePlaceholder.png", {
+    Duration = 2,       
+    Main = {
+        Rounding = true,
+    }
+});
+
+Notification.WallNotification("Test", "The Fitness Gram Pacer Test", {
+        Duration = 3,
+
+        TitleSettings = {
+            Enabled = false
+        }
+    });
+   end
+    end
